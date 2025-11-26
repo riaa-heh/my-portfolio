@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*header*/
+
+/* header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    background:  white;
+    z-index: 1000;
+    top: 0;
+    @media screen and (max-width:768px) {
+        justify-content: space-between;
+
+    }
+
+} */
+
+header h1 {
+    font-size: 15px;
+    font-family: Alex Brush;
+}
+
+/* header a {
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: black;
+} */
+
+/* header nav, header .cta {
+    display: flex;
+
+    @media screen and (max-width:768px) {
+        display: none;
+
+    }
+
+} */
+
+.cta a {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+
+    &:hover {
+        background: pink;
+    }
+}
+
+.dark-btn {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0;
+    font-size: 10x;
+    font-weight: 600;
+
+    &:hover {
+        background: black!important;
+        box-shadow: 0 4px 4px 0 pink;
+    }
+
+}
+
+header button {
+    background: 0;
+    border: 0;
+    display: none;
+
+    @media screen and (max-width:768px) {
+        display: block;
+
+    }
+}
+
+.hero input{
+    width: 100%;
+}
+.hero form button{
+width: 120px;
+padding: 10px 0;    
+}
+
